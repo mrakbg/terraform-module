@@ -7,7 +7,7 @@ provider "google" {
 }
 
 
-resource "google_storage_bucket" "gcs" {
+#resource "google_storage_bucket" "gcs" {
 #     name = var.bucketname
 #     location = var.location
 #     force_destroy = var.force_destroy
@@ -37,6 +37,3 @@ resource "google_compute_instance" "def" {
     }
   }
 }
-
-
-
