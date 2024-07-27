@@ -8,10 +8,10 @@ provider "google" {
 
 
 resource "google_storage_bucket" "gcs" {
-    name = var.bucketname
-    location = var.location
-    force_destroy = var.force_destroy
-}
+#     name = var.bucketname
+#     location = var.location
+#     force_destroy = var.force_destroy
+# }
 
 
 
